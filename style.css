@@ -1,3 +1,7 @@
+* {
+  background-color: rgb(233, 240, 252);
+}
+
 .square {
   width: 200px;
   height: 200px;
@@ -12,10 +16,35 @@
   align-content: center;
   width: 618px;
   height: 618px;
+  margin-top: 10px;
+  margin-left: 25%;
 }
 
 .picture {
   background-image: url("fishResize1.jpg");
   background-size: cover;
 }
-//
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5vh;
+  text-align: center;
+}
+
+h2 {
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3vh;
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+button {
+  font-size: 3vh;
+}
